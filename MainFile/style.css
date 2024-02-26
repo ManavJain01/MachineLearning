@@ -1,0 +1,176 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+body h1{
+  color: rgb(93, 91, 91);
+}
+
+body p{
+  color: gray;
+}
+
+header{
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(59, 54, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1{
+  color: rgb(154, 150, 150);
+}
+
+main{
+  width: 100vw;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+
+.div-wrapper{
+  min-width: 80vw;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 2%;
+}
+
+.div-wrapper a{
+  margin: 2%;
+  text-decoration: none;
+}
+
+.divs{
+  background-color: beige;
+  height: 24rem;
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  padding: 1% 5%;
+  border-radius: 5px;
+}
+
+.divs:hover{
+  cursor: pointer;
+  transform: scale(1.2,1.2);
+  opacity: 0.8;
+}
+
+.div2{
+  transform: rotate(0.5turn);
+}
+
+.div2:hover{
+  transform: rotate(1turn);
+}
+
+.div2:hover:before{
+  content:"Work in progress";
+  white-space: nowrap;
+  font-size: xx-large;
+  color: black;
+  animation: fluctuate 2000ms infinite;
+}
+
+@keyframes fluctuate{
+  from {opacity: 0.8;}
+  20% {opacity: 0.6;}
+  40% {opacity: 0.4;}
+  60% {opacity: 0.2;}
+  80% {opacity: 0.5;}
+  to {opacity: 0.6;}
+}
+
+.divs h1{
+  text-decoration: underline;
+}
+
+.divs img{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+footer{
+  width: 100vw;
+  min-height: 20vh;
+  background-color: rgb(51, 46, 46);
+  color: white;
+}
+
+footer nav{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 2%;
+}
+
+footer nav ul li{
+  list-style: none;
+  padding: 10px 0px;
+}
+
+footer nav ul h1{
+  margin-bottom: 0;
+  margin-top: 15%;
+  font-size: 30px;
+  font-family: cursive;
+  color: white;
+}
+
+footer nav ul li img{
+  width: 40px;
+  padding: 0px 5px;
+}
+
+footer nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.liHeadlines{
+  padding: 0;
+  margin-top: 22%;
+  font-size: 170%;
+  font-family: cursive;
+  border-bottom: 2px solid beige;
+}
+
+.portfolio{
+  position: relative;
+  padding: 0;
+  margin-top: 5%;
+  font-size: 170%;
+  font-family: cursive;
+}
+
+.portfolio:after {
+  content: "";
+  background-color: beige;
+  height: 2px;
+  width: 60%;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+
+.connect{
+  padding: 0;
+  margin-top: 18%;
+  font-size: 170%;
+  font-family: cursive;
+  border-bottom: 2px solid beige;
+}
