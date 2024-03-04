@@ -69,15 +69,15 @@ main{
   opacity: 0.8;
 }
 
-.div3{
+.divWorkInProgress{
   transform: rotate(0.5turn);
 }
 
-.div3:hover{
+.divWorkInProgress:hover{
   transform: rotate(1turn);
 }
 
-.div3:hover:before{
+.divWorkInProgress:hover:before{
   content:"Work in progress";
   white-space: nowrap;
   font-size: xx-large;
