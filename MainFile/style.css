@@ -69,15 +69,15 @@ main{
   opacity: 0.8;
 }
 
-.div2{
+.div3{
   transform: rotate(0.5turn);
 }
 
-.div2:hover{
+.div3:hover{
   transform: rotate(1turn);
 }
 
-.div2:hover:before{
+.div3:hover:before{
   content:"Work in progress";
   white-space: nowrap;
   font-size: xx-large;
@@ -113,9 +113,34 @@ footer{
 
 footer nav{
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   text-align: center;
   gap: 2%;
+}
+
+@media all and (orientation:portrait){
+  footer nav{
+    flex-direction: column;
+    gap: 0;
+  }
+
+  footer nav ul h1{
+    margin-top: 0;
+    color: green;
+  }
+
+  footer nav ul li{
+    padding: 0px 0px;
+  }
+
+  .liHeadlines{
+    margin-top: 0;
+  }
+
+  .portfolio{
+    margin-top: 0;
+  }
 }
 
 footer nav ul li{
