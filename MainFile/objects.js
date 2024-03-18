@@ -7,7 +7,7 @@ const object = [
     p2:"The Last of Us"
   },
   {
-    link:"#",
+    link:"https://github.com/ManavJain01/MachineLearning/tree/main/my-projects/XGB%20Algorithm/CICIDS%202018",
     h1:"Project 2",
     img:"../my-projects/XGB Algorithm/CICIDS 2018/Images/img1.png",
     p1:"Algorithm :: XGB",
