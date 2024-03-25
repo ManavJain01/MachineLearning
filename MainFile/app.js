@@ -1,0 +1,1 @@
+import objects from './objects'

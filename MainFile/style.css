@@ -20,7 +20,7 @@ body p{
 
 header{
   width: 100vw;
-  height: 20vh;
+  height: 10rem;
   background-color: rgb(59, 54, 54);
   display: flex;
   justify-content: center;
@@ -39,14 +39,15 @@ main{
 }
 
 .div-wrapper{
-  min-width: 80vw;
+  /* min-width: 80vw; */
+  /* min-width: 30rem; */
   display: flex;
   flex-flow: row wrap;
-  margin: 2%;
+  margin: 20px;
 }
 
 .div-wrapper a{
-  margin: 2%;
+  margin: 20px;
   text-decoration: none;
 }
 
@@ -58,8 +59,8 @@ main{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2%;
-  padding: 1% 5%;
+  gap: 10px;
+  padding: 1px 15px;
   border-radius: 5px;
 }
 
@@ -116,7 +117,7 @@ footer nav{
   flex-flow: row wrap;
   justify-content: center;
   text-align: center;
-  gap: 2%;
+  gap: 20px;
 }
 
 @media all and (orientation:portrait){
@@ -150,7 +151,7 @@ footer nav ul li{
 
 footer nav ul h1{
   margin-bottom: 0;
-  margin-top: 15%;
+  margin-top: 50px;
   font-size: 30px;
   font-family: cursive;
   color: white;
@@ -168,8 +169,8 @@ footer nav ul li a{
 
 .liHeadlines{
   padding: 0;
-  margin-top: 22%;
-  font-size: 170%;
+  margin-top: 50px;
+  font-size: 30px;
   font-family: cursive;
   border-bottom: 2px solid beige;
 }
@@ -177,25 +178,26 @@ footer nav ul li a{
 .portfolio{
   position: relative;
   padding: 0;
-  margin-top: 5%;
-  font-size: 170%;
+  margin-top: 1px;
+  font-size: 30px;
   font-family: cursive;
+  border-bottom: 2px solid beige;
 }
 
-.portfolio:after {
+/* .portfolio:after {
   content: "";
   background-color: beige;
   height: 2px;
-  width: 60%;
-  position: absolute;
+  width: 200px;
+  position: relative;
   bottom: 0;
-  right: 40px;
-}
+  right: 10px;
+} */
 
 .connect{
   padding: 0;
-  margin-top: 18%;
-  font-size: 170%;
+  margin-top: 50px;
+  font-size: 30px;
   font-family: cursive;
   border-bottom: 2px solid beige;
 }
